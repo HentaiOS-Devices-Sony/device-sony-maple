@@ -14,12 +14,20 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/hentai_maple_RoW.mk \
-    $(LOCAL_DIR)/hentai_maple_DSDS.mk
-
+    $(LOCAL_DIR)/hentai_maple_DSDS.mk \
+    $(LOCAL_DIR)/hentai_maple_RoW_Go.mk \
+    $(LOCAL_DIR)/hentai_maple_DSDS_Go.mk \
+    
 COMMON_LUNCH_CHOICES += \
     hentai_maple_RoW-eng \
     hentai_maple_RoW-userdebug \
     hentai_maple_RoW-user \
     hentai_maple_DSDS-eng \
     hentai_maple_DSDS-userdebug \
-    hentai_maple_DSDS-user
+    hentai_maple_DSDS-user \
+    hentai_maple_RoW_Go-eng \
+    hentai_maple_RoW_Go-userdebug \
+    hentai_maple_RoW_Go-user \
+    hentai_maple_DSDS_Go-eng \
+    hentai_maple_DSDS_Go-userdebug \
+    hentai_maple_DSDS_Go-user \
