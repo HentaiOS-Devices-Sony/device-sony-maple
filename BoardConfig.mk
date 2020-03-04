@@ -19,6 +19,10 @@ ifneq (,$(filter %hentai_maple_RoW,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := G8141
 else ifneq (,$(filter %hentai_maple_DSDS,$(TARGET_PRODUCT)))
 TARGET_BOOTLOADER_BOARD_NAME := G8142
+else ifneq (,$(filter %hentai_maple_RoW_Go,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := G8141
+else ifneq (,$(filter %hentai_maple_DSDS_Go,$(TARGET_PRODUCT)))
+TARGET_BOOTLOADER_BOARD_NAME := G8142
 else
 TARGET_BOOTLOADER_BOARD_NAME := G8141
 $(warning Unrecognized value for TARGET_PRODUCT: "$(TARGET_PRODUCT)", using default value: "$(TARGET_BOOTLOADER_BOARD_NAME)")
